@@ -1,0 +1,32 @@
+.album-name {
+  color: #a19f9b;
+}
+.song-image-wrapper {
+  width: 33.4rem;
+  height: 31rem;
+  position: relative;
+}
+
+@media only screen and (max-width: 1374px) and (min-width: 1200px) {
+  .song-image-wrapper {
+    width: 29rem;
+    height: 31rem;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .song-image-wrapper {
+    width: 42.6rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .song-image-wrapper {
+    width: 29rem;
+  }
+}
+@media only screen and (max-width: 658px) {
+  .song-image-wrapper {
+    width: 23rem;
+
+  }
+}

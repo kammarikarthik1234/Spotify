@@ -1,0 +1,20 @@
+.search-box {
+  height: 3.5rem;
+  width: 27rem;
+  background-color: #272218;
+}
+.search-icon {
+  font-size: 1.85rem;
+}
+.input-search::placeholder,
+.input-search {
+  color: #a19f9b;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #272218 inset !important;
+  -webkit-text-fill-color: #a19f9b !important;
+}

@@ -1,0 +1,35 @@
+.menu-icon {
+  font-size: 3rem;
+  position: absolute;
+  top: 6rem;
+  left: 3rem;
+  color: #fff;
+  display: none;
+}
+.playlist {
+  display: flex;
+}
+.visible {
+  display: flex !important;
+}
+@media only screen and (max-width: 1200px) {
+  .playlist {
+    display: none;
+  }
+  .menu-icon {
+    display: block !important;
+  }
+  .play-component {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47%, -50%);
+  }
+  .playlist {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20rem;
+    margin-left: -13.7rem !important;
+  }
+}

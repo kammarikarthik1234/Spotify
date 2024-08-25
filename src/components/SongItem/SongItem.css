@@ -1,0 +1,12 @@
+.song-card {
+  height: 5.7rem;
+  width: 30.2rem;
+}
+.song-name {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.artist-name,
+.duration {
+  color: #a19f9b;
+}
