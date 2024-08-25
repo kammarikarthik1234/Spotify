@@ -9,8 +9,8 @@
 
 @media only screen and (max-width: 1374px) and (min-width: 1200px) {
   .song-image-wrapper {
-    width: 29rem;
-    height: 31rem;
+    width: 29.2rem;
+    height: 29rem;
     position: relative;
   }
 }
@@ -27,6 +27,5 @@
 @media only screen and (max-width: 658px) {
   .song-image-wrapper {
     width: 23rem;
-
   }
 }

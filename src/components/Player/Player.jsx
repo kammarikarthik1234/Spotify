@@ -23,12 +23,12 @@ function Player() {
     track?.cover
   }`;
   return (
-    <div className="player  mt-24 mr-8  box-border max-w-full">
+    <div className="player  mt-24 mr-20  box-border max-w-full">
       <div className="flex flex-col gap-2">
         <h1 className="text-white text-4xl font-semibold">{track?.name}</h1>
         <p className="album-name text-lg">{track?.artist}</p>
       </div>
-      <div className="song-image-wrapper mt-8 ">
+      <div className="song-image-wrapper mt-4 ">
         <img
           src={coverImageUrl}
           className="w-full h-full max-w-full object-cover"
@@ -44,7 +44,7 @@ function Player() {
           className="h-2 border-none w-0 bg-white rounded-full"
         />
       </div>
-      <div className="play-controls flex mt-10 justify-between">
+      <div className="play-controls flex mt-6 justify-between">
         <div className="flex items-center justify-center rounded-full bg-gray-800 w-12 h-12">
           <BsThreeDots className="text-white text-2xl" />
         </div>
