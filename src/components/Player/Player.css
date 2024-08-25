@@ -2,15 +2,15 @@
   color: #a19f9b;
 }
 .song-image-wrapper {
-  width: 33.4rem;
-  height: 31rem;
+  width: 29.2rem;
+  height: 29rem;
   position: relative;
 }
 
 @media only screen and (max-width: 1374px) and (min-width: 1200px) {
   .song-image-wrapper {
-    width: 29.2rem;
-    height: 29rem;
+    width: 29rem;
+    height: 31rem;
     position: relative;
   }
 }
