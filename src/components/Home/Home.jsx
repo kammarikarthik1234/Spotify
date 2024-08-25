@@ -22,6 +22,7 @@ const Home = () => {
   };
 
   const toggleComponentsVisibility = () => {
+    console.log("h")
     setIsPlaylistVisible((prev) => !prev);
   };
 
@@ -36,7 +37,7 @@ const Home = () => {
       <div className="flex flex-grow">
         <Sidebar />
         {
-          <div className="menu-icon" onClick={toggleComponentsVisibility}>
+          <div className="menu-icon w-2 z-50" onClick={toggleComponentsVisibility}>
             <MdOutlineMenu />
           </div>
         }

@@ -23,7 +23,7 @@ function Player() {
     track?.cover
   }`;
   return (
-    <div className="player  mt-24 mr-20  box-border max-w-full">
+    <div className="player  mt-20 mr-20  box-border max-w-full">
       <div className="flex flex-col gap-2">
         <h1 className="text-white text-4xl font-semibold">{track?.name}</h1>
         <p className="album-name text-lg">{track?.artist}</p>
