@@ -22,7 +22,7 @@ function PlayList({ music, search }) {
       className={`transition-opacity duration-500 ${
         isLoaded ? "opacity-100" : "opacity-0"
       }
-    flex flex-col transform translate-x-[-24px]`}
+    flex flex-col gap-x.15 transform translate-x-[-24px]`}
     >
       {filteredMusic
         ?.filter((track) => {

@@ -41,9 +41,9 @@ const Home = () => {
             <MdOutlineMenu />
           </div>
         }
-        <div className="play-component flex flex-row 2xl:gap-32  xl:gap-28">
+        <div className="play-component flex flex-row 2xl:gap-32  xl:gap-32">
           <div
-            className={`playlist flex-col gap-10 ml-8 ${isPlaylistVisible ? "visible" : ""}`}
+            className={`playlist flex-col gap-7 ml-8 ${isPlaylistVisible ? "visible" : ""}`}
           >
             <Navigation />
             <Search onSearch={handleSearch} />
