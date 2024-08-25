@@ -46,27 +46,39 @@ function Player() {
       </div>
       <div className="play-controls flex mt-6 justify-between">
         <div className="flex items-center justify-center rounded-full bg-gray-800 w-12 h-12">
-          <BsThreeDots className="text-white text-2xl" />
+          <BsThreeDots className="text-white text-2xl cursor-pointer" />
         </div>
         <div className="flex items-center gap-11">
-          <IoPlayBackSharp onClick={previous} className="text-white text-3xl" />
+          <IoPlayBackSharp
+            onClick={previous}
+            className="text-white text-3xl cursor-pointer"
+          />
           {playStatus ? (
-            <FaPauseCircle onClick={pause} className="text-white text-5xl" />
+            <FaPauseCircle
+              onClick={pause}
+              className="text-white text-5xl cursor-pointer"
+            />
           ) : (
-            <FaPlayCircle onClick={play} className="text-white text-5xl" />
+            <FaPlayCircle
+              onClick={play}
+              className="text-white text-5xl cursor-pointer"
+            />
           )}
-          <IoPlayForwardSharp onClick={next} className="text-white text-3xl" />
+          <IoPlayForwardSharp
+            onClick={next}
+            className="text-white text-3xl cursor-pointer"
+          />
         </div>
         <div className="flex items-center justify-center rounded-full bg-gray-800 w-12 h-12">
           {isMuted ? (
             <FaVolumeMute
               onClick={toggleSound}
-              className="text-white text-xl"
+              className="text-white text-xl cursor-pointer"
             />
           ) : (
             <HiSpeakerWave
               onClick={toggleSound}
-              className="text-white text-xl"
+              className="text-white text-xl cursor-pointer"
             />
           )}
         </div>

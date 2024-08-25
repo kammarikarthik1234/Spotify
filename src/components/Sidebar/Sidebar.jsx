@@ -3,7 +3,10 @@ import "./Sidebar.css";
 import spotify from "../../assets/images/spotify.png";
 const Sidebar = () => {
   return (
-    <div className="w-72 h-full  ml-8 text-white flex flex-row gap-0 ">
+    <div
+      className="w-72 h-full  ml-8 text-white flex flex-row gap-0 cursor-pointer"
+      onClick={() => window.location.reload()}
+    >
       <div className="logo-wrapper w-14 mb-8 overflow-hidden">
         <img src={spotify} className="object-cover rounded-full" />
       </div>
