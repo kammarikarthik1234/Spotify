@@ -28,4 +28,7 @@
   .song-image-wrapper {
     width: 23rem;
   }
+  .player {
+    margin-right: 1rem;
+  }
 }
