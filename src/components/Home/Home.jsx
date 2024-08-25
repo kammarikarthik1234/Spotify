@@ -22,7 +22,7 @@ const Home = () => {
   };
 
   const toggleComponentsVisibility = () => {
-    console.log("h")
+    console.log("h");
     setIsPlaylistVisible((prev) => !prev);
   };
 
@@ -37,7 +37,10 @@ const Home = () => {
       <div className="flex flex-grow">
         <Sidebar />
         {
-          <div className="menu-icon w-2 z-50" onClick={toggleComponentsVisibility}>
+          <div
+            className="menu-icon w-2 z-50"
+            onClick={toggleComponentsVisibility}
+          >
             <MdOutlineMenu />
           </div>
         }
@@ -45,7 +48,7 @@ const Home = () => {
           <div
             className={`playlist flex-col gap-7 ml-8 ${isPlaylistVisible ? "visible" : ""}`}
           >
-            <Navigation />
+            <Navigation setSearch={setSearch} />
             <Search onSearch={handleSearch} />
             {music && <PlayList music={music} search={search} />}
           </div>
